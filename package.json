@@ -1,1 +1,1 @@
-{\n  "name": "portfolio",\n  "version": "1.0.0",\n  "description": "My portfolio project",\n  "main": "index.js",\n  "scripts": {\n    "test": "echo 'Error: no test specified' && exit 1"\n  },\n  "keywords": [],\n  "author": "sahil09-r",\n  "license": "ISC"\n}
+{...}

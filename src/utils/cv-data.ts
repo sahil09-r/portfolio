@@ -1,1 +1,1 @@
-{...}
+export const cvData = { name: 'Sahil', contact: 'sahil09@example.com', skills: ['JavaScript', 'React', 'Node.js'] };

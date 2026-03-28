@@ -1,7 +1,23 @@
-import Layout from './layout';
+import Navigation from '@/components/Navigation';
+import Hero from '@/components/sections/Hero';
+import About from '@/components/sections/About';
+import Skills from '@/components/sections/Skills';
+import Projects from '@/components/sections/Projects';
+import Education from '@/components/sections/Education';
+import Contact from '@/components/sections/Contact';
+import Footer from '@/components/sections/Footer';
 
-const Page = () => {
- return <Layout><h1>Hello, world!</h1></Layout>;
-};
-
-export default Page;
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100">
+      <Navigation />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Education />
+      <Contact />
+      <Footer />
+    </main>
+  );
+}
